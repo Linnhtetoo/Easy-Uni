@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economy</title>
+    <link rel="stylesheet" href="css/economy.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="main">
+            <h2 class="main-h">Applying Economic Universities</h3>
+        </header>
+
+        <div class="note-container">
+            <header class="subhead">
+                <h3 class="sub-h">Important Notice:</h4>
+            </header>
+            
+            <div class="content-container">
+                <ul class="note">
+                    <li class="note">All fields must be written in English.</li>
+                    <li class="note">All fields are mandatory.</li>
+                    <li class="note">You are required to upload the SCANNED copies of your graduation certificates.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form class="form" action="submit-eco.html">
+                
+                <header class="subhead">
+                    <h3 class="sub-h">Personal Information</h3>
+                </header>
+
+                <label class="label" for="name">Full Name</label>
+                <input type="text" id="name" name="full-name" class="form-cell" required>
+
+                <label for="photo" class="label">Please upload your photo.</label>
+                <input type="file" name="photo" class="form-cell upload" id="photo" required>
+                
+                <label class="label" for="date">Date of Birth</label>
+                <input type="date" name="date-of-birth" class="form-cell date-of-birth" id="date" required>
+                
+                <label class="label" for="nrc">NRC Number</label>
+                <input type="text" id="nrc" name="nrc" class="form-cell" required>
+                
+                <label class="label" for="nationality">Nationality</label>
+                <input type="text" id="nationality" name="nationality" class="form-cell" required>
+        
+                <label for="roll-no" class="label">Roll Number</label>
+                <input id="roll-no" type="text" name="roll-no" class="form-cell" required>
+        
+                <label class="label" for="marks">Marticulation Exam Marks</label>
+                <input id="marks" type="number" name="marks" class="form-cell" required>
+                
+                <label class="label" for="email">Email</label>
+                <input id="email" type="email" name="email" class="form-cell" required>
+        
+                <label class="label" for="phone">Phone Number</label>
+                <input id="phone" type="text" name="phone-no" class="form-cell" required>
+        
+                <label class="label" for="father-name">Father's Name</label>
+                <input id="father-name" type="text" name="father-name" class="form-cell" required>
+        
+                <label class="label" for="father-nrc">Father's NRC Number</label>
+                <input id="father-nrc" type="text" name="father-nrc" class="form-cell" required>
+
+                <label class="label" for="addrss">Full Address</label>
+                <textarea id="address" name="address" class="form-cell address" required></textarea>
+
+                <!------>
+
+                <header class="subhead">
+                    <h3 class="sub-h">Choosing Universities</h3>
+                </header>
+                
+                <label class="label" for="uni">Please select the University you want to attend.</label>
+                <select name="university" id="uni" class="form-cell select" required>
+                    <option value="NMDC" selected>National Management Degree College</option>
+                    <option vlaue="YUECO(Hlaing)">Yangon University Of Economic(Hlaing)</option>
+                    <option vlaue="YUECO(Ywar-Thar-Gyee)">Yangon University Of Economic(Ywar-Thar-Gyee)</option>
+                </select>
+                
+                <label class="label" for="reason">Please tell us why you want to attend your chosen university.</label>
+                <textarea id="reason" name="reason" class="form-cell textarea" required></textarea>
+
+                <!---->
+
+                <header class="subhead">
+                    <h3 class="sub-h">Certificate of Graduation</h3>
+                </header>
+
+                <label class="label" for="transcript">Upload your High School Transcript.</label>
+                <input id="transcript" type="file" class="form-cell upload" name="high-school-transcript" required>
+
+                <label class="label" for="mark-paper">Upload your Matriculation Exam Mark Paper.</label>
+                <input id="mark-paper" type="file" class="form-cell upload" name="mark-paper" required>
+
+                <!--  -->
+
+                <input type="submit" value="Submit" class="form-cell submit">
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
