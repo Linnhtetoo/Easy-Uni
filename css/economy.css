@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(247, 247, 247);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.wrapper {
+    width: 70%;
+    background-color: white;
+    padding: 5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2rem 2rem rgba(10, 4, 68, 0.1);
+    border-top: 7.5px solid #539df0;
+    margin: 3rem auto;
+}
+
+header.main {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h2.main-h {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+div.note-container{
+    margin-bottom: 3rem;
+}
+
+header.subhead {
+    margin-bottom: 2rem;
+}
+
+h3.sub-h {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+ul.note {
+    margin-left: -0.5rem;
+}
+
+li.note {
+    margin-bottom: 0.75rem;
+}
+
+form.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label.label {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.form-cell {
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+}
+
+.upload {
+    margin-left: -0.2rem;
+}
+
+.address {
+    height: 5rem;
+}
+.textarea {
+    height: 10rem;
+}
+
+.form-cell.submit {
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #539df0;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 100ms ease-in-out 25ms;
+}
+
+.form-cell.submit:hover {
+    transform: scale(1.1);
+}
+
+.form-cell.submit:active {
+    transform: scale(1);
+    background-color: #45d2d2;
+}
