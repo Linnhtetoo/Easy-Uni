@@ -328,7 +328,8 @@ div.motto-container {
     padding: 1.5rem;
     /* border-top: 5px solid #45d2d2; */
     width: 90%;
-    margin: 4rem auto;
+    margin: 2rem auto;
+    margin-bottom: 4rem;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
