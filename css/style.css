@@ -478,11 +478,13 @@ p.footer {
     }
 }
 
+
 @media screen and (max-width: 991px) {
     #c1, #c3 {
         top: 26.5rem;
     }
 }
+
 
 @media screen and (max-width: 768px) {
     div.card {
@@ -493,7 +495,7 @@ p.footer {
         width: 50%;
     }
 
-    #c1, #c3 {
+    #c1, #c3, #c2, #c4 {
         position: static;
     }
 
@@ -698,5 +700,29 @@ p.footer {
 
     div.dev-icons {
         opacity: 0;
+    }
+}
+
+@media (hover: hover) and (max-width: 1366px) {
+    #c1:hover, #c3:hover {
+        top: 22rem;
+    }
+}
+
+@media (hover: hover) and (max-width: 1024px) {
+    #c1:hover, #c3:hover {
+        top: 23rem;
+    }
+}
+
+@media (hover: hover) and (max-width: 991px) {
+    #c1:hover, #c3:hover {
+        top: 24rem;
+    }
+}
+
+@media (hover: hover) and (max-width: 768px) {
+    div.card:hover > div.container:not(:hover) {
+        opacity: 1;
     }
 }
