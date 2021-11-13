@@ -158,35 +158,39 @@ p.button {
 
 p.button.b1 {
     border: 2px solid #45d2d2;
-}
-
-p.b1:hover {
     background-color: #45d2d2;
 }
 
+/* p.b1:hover {
+    background-color: #45d2d2;
+} */
+
 p.button.b2 {
     border: 2px solid #eb5454;
-}
-
-p.b2:hover {
     background-color: #eb5454;
 }
 
+/* p.b2:hover {
+    background-color: #eb5454;
+} */
+
 p.button.b3 {
     border: 2px solid #539df0;
-}
-
-p.b3:hover {
     background-color: #539df0;
 }
 
+/* p.b3:hover {
+    background-color: #539df0;
+} */
+
 p.button.b4 {
     border: 2px solid #ffda2a;
-}
-
-p.b4:hover {
     background-color: #ffda2a;
 }
+
+/* p.b4:hover {
+    background-color: #ffda2a;
+} */
 
 a.btn {
     color: black;
@@ -645,6 +649,42 @@ p.footer {
 
     p.button {
         opacity: 0;
+    }
+
+    p.button.b1 {
+        border: 2px solid #45d2d2;
+        background-color: white;
+    }
+    
+    p.b1:hover {
+        background-color: #45d2d2;
+    }
+
+    p.button.b2 {
+        border: 2px solid #eb5454;
+        background-color:  white;
+    }
+    
+    p.b2:hover {
+        background-color: #eb5454;
+    }
+
+    p.button.b3 {
+        border: 2px solid #539df0;
+        background-color: white;
+    }
+    
+    p.b3:hover {
+        background-color: #539df0;
+    }
+
+    p.button.b4 {
+        border: 2px solid #ffda2a;
+        background-color: white;
+    }
+    
+    p.b4:hover {
+        background-color: #ffda2a;
     }
 
     div.developers:hover {
